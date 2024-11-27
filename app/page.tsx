@@ -18,6 +18,9 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
+import { Switch } from "@/components/ui/switch"
+
+
 
 export default function Home() {
 
@@ -94,6 +97,14 @@ export default function Home() {
       <CarouselNext />
     </Carousel>
   </section>
+
+
+ 
+  <section className="p-8 border border-border rounded-md space-y-4">
+    <h1>Airplane Mode</h1>
+    <Switch />
+  </section>
+
 
 
       {/* Conclusion Section */}
